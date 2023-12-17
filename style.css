@@ -110,6 +110,10 @@ li, a{
     background-color: var(--color-background-blue);
 }
 
+.container_aboutUs > img{
+    height: 100%;
+}
+
 .text-aboutus{
     display: flex;
     flex-direction: column;
@@ -117,7 +121,7 @@ li, a{
     font-size: 1.4rem;
     color: white;
     justify-content: center;
-    line-height: 60px;
+    line-height: 40px;
 }
 
 .container_products > h2{
