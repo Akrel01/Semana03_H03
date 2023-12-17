@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacto.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <h1>Tienda Muebles</h1>
+        <h1 class="title_principal">Tienda <span>Muebles</span></h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -21,26 +22,26 @@
     </header>
     <main>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Tus Datos</legend>
-                <div>
+                <div class="campo">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" placeholder="Tu Nombre" required>
                 </div>
-                <div>
+                <div class="campo">
                     <label for="asunto">Asunto:</label>
                     <input type="text" id="asunto" placeholder="Tu Asunto" required>
                 </div>
-                <div>
+                <div class="campo">
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" placeholder="Tu E-mail" required>
                 </div>
-                <div>
+                <div class="campo">
                     <label for="telefono">Telefono:</label>
                     <input type="tel" id="telefono" placeholder="Tu telefono" required>
                 </div>
-                <div>
+                <div class="campo">
                     <label for="mensaje">Mensaje:</label>
                     <textarea name="" id="" cols="20" rows="10"></textarea>
                 </div>
@@ -48,7 +49,7 @@
             <fieldset>
                 <legend>Pais</legend>
                 <form>
-                    <div>
+                    <div class="campo">
                         <label for="pais">Pais:</label>
                         <select name="country" id="pais">
                             <option value="Mexico">Mexico</option>
@@ -59,19 +60,18 @@
                             <option value="Chile">Chile</option>
                         </select>
                     </div>
-                </form>
             </fieldset>
             <fieldset>
                 <legend>Informacion Extra</legend>
-                <div>
+                <div class="campo">
                     <label for="cliente">Cliente</label>
                     <input type="radio" id="cliente" value="cliente" name="Informacion Extra"><br>
                 </div>
-                <div>
+                <div class="campo">
                     <label for="proveedor">Proveedor</label>
                     <input type="radio" id="proveedor" value="proveedor" name="Informacion Extra">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Categoria de Interés</label>
                     <input list="categorias" name="categorias">
                     <datalist id="categorias">
@@ -88,35 +88,33 @@
     </main>
     <footer>
         <div>
-            <div>
-                <h3>Categorias</h3>
-                <nav>
-                    <a href="#">Cocina</a>
-                    <a href="#">Oficina</a>
-                    <a href="#">Jardin</a>
-                    <a href="#">Cochera</a>
-                    <a href="#">Dormitorio</a>
-                </nav>
-            </div>
-            <div>
-                <h3>Sobre Nosotros</h3>
-                <nav>
-                    <a href="#">Nuestra Historia</a>
-                    <a href="#">Mision, vision y valores</a>
-                    <a href="#">Carreras</a>
-                    <a href="#">Politica de la Privacidad</a>
-                    <a href="#">Terminos de Servicio</a>
-                </nav>
-            </div>
-            <div>
-                <h3>Soporte</h3>
-                <nav>
-                    <a href="#">Preguntas Frecuentes</a>
-                    <a href="#">Ayuda en linea</a>
-                    <a href="#">Confianza y Seguridad</a>
-                </nav>
-            </div>
+            <h3>Categorias</h3>
+            <nav  class="nav_footer">
+                <a href="#">Cocina</a>
+                <a href="#">Oficina</a>
+                <a href="#">Jardin</a>
+                <a href="#">Cochera</a>
+                <a href="#">Dormitorio</a>
+            </nav>
         </div>
-    </footer>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <nav  class="nav_footer">
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Mision, vision y valores</a>
+                <a href="#">Carreras</a>
+                <a href="#">Politica de la Privacidad</a>
+                <a href="#">Terminos de Servicio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <nav class="nav_footer">
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Ayuda en linea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </nav>
+        </div>
+</footer>
 </body>
 </html>

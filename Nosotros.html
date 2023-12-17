@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nosotros.css">
     <title>Nosotros</title>
 </head>
 <body>
     <header>
-        <h1>Tienda Muebles</h1>
+        <h1 class="title_principal">Tienda <span>Muebles</span></h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -19,11 +20,11 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <h2>Sobre Nosotros</h2>
-        <div>
-            <img src="./img/nosotros.jpg"  height="300px">
-            <div>
+        <div class="container_grid">
+            <img src="./img/nosotros.jpg">
+            <div class="container_text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Consequuntur, odit. Unde facilis totam iusto voluptatibus, 
                     cupiditate provident id consectetur quibusdam debitis esse 
@@ -39,35 +40,33 @@
     </main>
     <footer>
         <div>
-            <div>
-                <h3>Categorias</h3>
-                <nav>
-                    <a href="#">Cocina</a>
-                    <a href="#">Oficina</a>
-                    <a href="#">Jardin</a>
-                    <a href="#">Cochera</a>
-                    <a href="#">Dormitorio</a>
-                </nav>
-            </div>
-            <div>
-                <h3>Sobre Nosotros</h3>
-                <nav>
-                    <a href="#">Nuestra Historia</a>
-                    <a href="#">Mision, vision y valores</a>
-                    <a href="#">Carreras</a>
-                    <a href="#">Politica de la Privacidad</a>
-                    <a href="#">Terminos de Servicio</a>
-                </nav>
-            </div>
-            <div>
-                <h3>Soporte</h3>
-                <nav>
-                    <a href="#">Preguntas Frecuentes</a>
-                    <a href="#">Ayuda en linea</a>
-                    <a href="#">Confianza y Seguridad</a>
-                </nav>
-            </div>
+            <h3>Categorias</h3>
+            <nav  class="nav_footer">
+                <a href="#">Cocina</a>
+                <a href="#">Oficina</a>
+                <a href="#">Jardin</a>
+                <a href="#">Cochera</a>
+                <a href="#">Dormitorio</a>
+            </nav>
         </div>
-    </footer>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <nav  class="nav_footer">
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Mision, vision y valores</a>
+                <a href="#">Carreras</a>
+                <a href="#">Politica de la Privacidad</a>
+                <a href="#">Terminos de Servicio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <nav class="nav_footer">
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Ayuda en linea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </nav>
+        </div>
+</footer>
 </body>
 </html>

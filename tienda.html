@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tienda.css">
     <title>Tienda</title>
 </head>
 <body>
     <header>
-        <h1>Tienda Muebles</h1>
+        <h1 class="title_principal">Tienda <span>Muebles</span></h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -21,110 +22,110 @@
     </header>
     <main>
             <h2>Nuestro Productos</h2>
-            <div>
-                <img src="./img/producto1.jpg" height="300px">
-                <div>
-                    <h3>Producto 1</h3>
-                    <p>Proin condimentum sodales risus ut aliquet.
-                         Nunc eu neque quis sapien feugiat posuere 
-                         sed nec mauris.
-                    </p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-            <div>
-                <img src="./img/producto2.jpg" height="300px">
-                <div>
-                    <h3>Producto 2</h3>
-                    <p>Proin condimentum sodales risus ut aliquet.
-                         Nunc eu neque quis sapien feugiat posuere 
-                         sed nec mauris.
-                    </p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-            <div>
-                <img src="./img/producto3.jpg" height="300px">
-                <div>
-                    <h3>Producto 3</h3>
-                    <p>Proin condimentum sodales risus ut aliquet.
-                         Nunc eu neque quis sapien feugiat posuere 
-                         sed nec mauris.
-                    </p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-            <div>
-                <img src="./img/producto4.jpg" height="300px">
-                <div>
-                    <h3>Producto 4</h3>
-                    <p>Proin condimentum sodales risus ut aliquet.
-                         Nunc eu neque quis sapien feugiat posuere 
-                         sed nec mauris.
-                    </p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-            <div>
-                <img src="./img/producto5.jpg" height="300px">
-                <div>
-                    <h3>Producto 5</h3>
-                    <p>Proin condimentum sodales risus ut aliquet.
-                         Nunc eu neque quis sapien feugiat posuere 
-                         sed nec mauris.
-                    </p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-            <div>
-                <img src="./img/producto6.jpg" height="300px">
-                <div>
-                    <h3>Producto 6</h3>
-                    <p>Proin condimentum sodales risus ut aliquet.
-                         Nunc eu neque quis sapien feugiat posuere 
-                         sed nec mauris.
-                    </p>
-                    <p>$1,000,000.00</p>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
+            <div class="container_products-grid">
+                <article class="product">
+                    <img src="./img/producto1.jpg">
+                    <div class="text_product">
+                        <h3>Producto 1</h3>
+                        <p>Proin condimentum sodales risus ut aliquet.
+                            Nunc eu neque quis sapien feugiat posuere 
+                            sed nec mauris.
+                        </p>
+                        <p class="price">$1,000,000.00</p>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="./img/producto2.jpg">
+                    <div class="text_product">
+                        <h3>Producto 2</h3>
+                        <p>Proin condimentum sodales risus ut aliquet.
+                             Nunc eu neque quis sapien feugiat posuere 
+                             sed nec mauris.
+                        </p>
+                        <p class="price">$1,000,000.00</p>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="./img/producto3.jpg">
+                    <div class="text_product">
+                        <h3>Producto 3</h3>
+                        <p>Proin condimentum sodales risus ut aliquet.
+                             Nunc eu neque quis sapien feugiat posuere 
+                            sed nec mauris.
+                        </p>
+                        <p class="price">$1,000,000.00</p>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="./img/producto4.jpg">
+                    <div class="text_product">
+                        <h3>Producto 4</h3>
+                        <p>Proin condimentum sodales risus ut aliquet.
+                            Nunc eu neque quis sapien feugiat posuere 
+                             sed nec mauris.
+                        </p>
+                        <p class="price">$1,000,000.00</p>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="./img/producto5.jpg">
+                    <div class="text_product">
+                        <h3>Producto 5</h3>
+                        <p>Proin condimentum sodales risus ut aliquet.
+                             Nunc eu neque quis sapien feugiat posuere 
+                             sed nec mauris.
+                        </p>
+                        <p class="price">$1,000,000.00</p>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </article>
+                <article class="product" >
+                    <img src="./img/producto6.jpg">
+                    <div class="text_product">
+                        <h3>Producto 6</h3>
+                        <p>Proin condimentum sodales risus ut aliquet.
+                             Nunc eu neque quis sapien feugiat posuere 
+                             sed nec mauris.
+                        </p>
+                        <p class="price">$1,000,000.00</p>
+                        <button>AGREGAR AL CARRITO</button>
+                    </div>
+                </article>
             </div>
     </main>
     <footer>
         <div>
-            <div>
-                <h3>Categorias</h3>
-                <nav>
-                    <a href="#">Cocina</a>
-                    <a href="#">Oficina</a>
-                    <a href="#">Jardin</a>
-                    <a href="#">Cochera</a>
-                    <a href="#">Dormitorio</a>
-                </nav>
-            </div>
-            <div>
-                <h3>Sobre Nosotros</h3>
-                <nav>
-                    <a href="#">Nuestra Historia</a>
-                    <a href="#">Mision, vision y valores</a>
-                    <a href="#">Carreras</a>
-                    <a href="#">Politica de la Privacidad</a>
-                    <a href="#">Terminos de Servicio</a>
-                </nav>
-            </div>
-            <div>
-                <h3>Soporte</h3>
-                <nav>
-                    <a href="#">Preguntas Frecuentes</a>
-                    <a href="#">Ayuda en linea</a>
-                    <a href="#">Confianza y Seguridad</a>
-                </nav>
-            </div>
+            <h3>Categorias</h3>
+            <nav  class="nav_footer">
+                <a href="#">Cocina</a>
+                <a href="#">Oficina</a>
+                <a href="#">Jardin</a>
+                <a href="#">Cochera</a>
+                <a href="#">Dormitorio</a>
+            </nav>
         </div>
-    </footer>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <nav  class="nav_footer">
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Mision, vision y valores</a>
+                <a href="#">Carreras</a>
+                <a href="#">Politica de la Privacidad</a>
+                <a href="#">Terminos de Servicio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <nav class="nav_footer">
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Ayuda en linea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </nav>
+        </div>
+</footer>
 </body>
 </html>

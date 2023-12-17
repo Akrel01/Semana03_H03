@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Raleway:wght@200;400&display=swap');
+
+:root{
+    --color-background-blue:#037bc0;
+    --color-button:#8cbc00
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Raleway", "sans-serif";
+    margin: 2rem;
+}
+
+main{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 5rem 0 3rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin:4rem 0 2rem;
+}
+
+
+h3{
+    font-size: 2rem;
+}
+img{
+    width: 100%;
+}
+
+nav{
+    margin: 0 auto;
+    padding: 1.1rem;
+    border-top: solid 1px rgba(0, 0, 0, 0.219);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li, a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.title_principal > span{
+    color: var(--color-background-blue);
+}
+
+.container_products > h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 8rem 0 2rem;
+    font-weight: 700;
+}
+
+.container_products-grid{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.product{
+    background-color: var(--color-background-blue);
+    border-radius: 15px;
+}
+
+.product > img{
+    border-radius: 15px
+}
+
+.product:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: grid;
+    grid-template-columns: 4.5fr 1.5fr;
+}
+
+.product:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.product:nth-child(3){
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.product:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.product:nth-child(5){
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.product:nth-child(6){
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.text_product {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    height: 100%;
+}
+
+.text_product > p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.price{
+    font-weight: 700;
+}
+
+.text_product > button{
+    background-color: var(--color-button);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-weight: 800;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(228, 131, 5);
+    cursor: pointer;
+}
+
+footer{
+    border-top: solid 1px rgb(71, 71, 71);
+    margin-top: 5rem;
+    padding: 2rem 6rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nav_footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: none;
+    gap: 30px;
+}
+
+.nav_footer > a:hover{
+    color: var(--color-background-blue);
+}
+
